@@ -5,6 +5,6 @@
 
 <h3 align="left">Level 1:</h3>
 <h4 align="left">Tasks:</h4>
-1. Landing Page
-<br> 2. Portfolio
-<br> 3. Calculator
+<br>1. Landing Page</br>
+<br>2. Portfolio</br>
+<br>3. Calculator</br>
