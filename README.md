@@ -1,5 +1,3 @@
-# CODSOFT
-
 <h1 align="center">CODSOFT Internship</h1>
 <h3 align="center">Web Development</h3>
 
