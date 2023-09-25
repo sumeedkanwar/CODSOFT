@@ -116,6 +116,7 @@ a.active,a:hover{
 
 .sec1 h1{
     font-size: 36px;
+    text-decoration: underline;
     margin-bottom: 20px;
 }
 
@@ -149,25 +150,91 @@ a.active,a:hover{
     padding: 20px;
 }
 
-.box h3{
+.box h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.sec3{
-    padding: 40px 0;
-}
-
-.sec3 h2{
-    text-align: center;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.sec3 p{
+.sec3 {
+    padding: 40px 0;
     text-align: center;
+}
+
+.sec3 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.sec3 p {
     padding: 20px;
+}
+
+.sec4 {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sec4 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.sec4 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sec4 p {
+    padding: 20px;
+}
+
+.serve {
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    margin: 0 1.5%;
+    text-align: center;
+}
+
+.pic {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sec5{
+    padding: 40px 0;
+}
+
+.sec5 h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.inp{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 21px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.butn
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 footer{
