@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Sumeed's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class=leftSection>
+                Salam! My name is <span class="name">Sumeed Kanwar</span>
+                <div>
+                    and I am a
+                    <div>
+                        <span id="element"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="./images/developer.jpg" alt="Developer">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <h1>About</h1>
+            <br>
+            <p>
+                I am passionate in creating innovative solutions to complicated challenges. I am capable of designing
+                and implementing efficient and scalable software systems due to my expertise in numerous programming
+                languages and technologies. To give the greatest possible outcomes, I am continually learning and
+                staying up to date with the newest industry trends.
+                <br>
+                <a href="https://github.com/sumeedkanwar" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/sumeedj/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section class="thirdSection">
+            <h1>Skills</h1>
+            <p>
+            <div class="skill">
+                <img src="./images/cpp.png" alt="C++">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/html.png" alt="HTML">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/css.png" alt="CSS">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/js.png" alt="JavaScript">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/bootstrap.png" alt="Bootstrap">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/figma.png" alt="Figma">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/dart.png" alt="Dart">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/flutter.png" alt="Flutter">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="./images/git.png" alt="Git">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- <section>
+            <div class="box">
+                <div class="vertical">
+                </div>
+                <div class="vertical">
+                </div>
+                <div class="vertical">
+                </div>
+                <div class="vertical">
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+
+    <!-- <footer>
+        <p>Sumeed Jawad Kanwar &copy; 2023</p>
+    </footer> -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer'],
+            typeSpeed: 50,
+            backSpeed: 10,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
