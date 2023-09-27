@@ -1,5 +1,5 @@
-#CODSOFT
-<h3 align="center">Web Development</h3>
+<h1 align="center">CODSOFT</h1>
+<h2 align="center">Web Development</h2>
 
 <h3 align="left">Level 1:</h3>
 <h4 align="left">Tasks:</h4>
