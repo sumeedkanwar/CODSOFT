@@ -21,19 +21,19 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Resume</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="firstSection">
+        <section class="firstSection" id="home">
             <div class=leftSection>
                 Salam! My name is <span class="name">Sumeed Kanwar</span>
                 <div>
@@ -50,7 +50,7 @@
 
         <hr>
 
-        <section class="secondSection">
+        <section class="secondSection" id="about">
             <h1>About</h1>
             <br>
             <p>
@@ -59,67 +59,67 @@
                 languages and technologies. To give the greatest possible outcomes, I am continually learning and
                 staying up to date with the newest industry trends.
                 <br>
-                <a href="https://github.com/sumeedkanwar" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/sumeedj/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
             </p>
 
         </section>
 
         <hr>
 
-        <section class="thirdSection">
+        <section class="thirdSection" id="skills">
             <h1>Skills</h1>
             <p>
-            <div class="skill">
-                <img src="./images/cpp.png" alt="C++">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%;"></div>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="./images/cpp.png" alt="C++">
+                    <br>
+                    C++
+                </div>
+                <div class="box">
+                    <img src="./images/html.png" alt="HTML">
+                    <br>
+                    HTML
+                </div>
+                <div class="box">
+                    <img src="./images/css.png" alt="CSS">
+                    <br>
+                    CSS
+                </div>
+                <div class="box">
+                    <img src="./images/js.png" alt="JavaScript">
+                    <br>
+                    JavaScript
+                </div>
+                <div class="box">
+                    <img src="./images/flutter.png" alt="Flutter">
+                    <br>
+                    Flutter
+                </div>
+                <div class="box">
+                    <img src="./images/bootstrap.png" alt="Bootstrap">
+                    <br>
+                    Bootstrap
+                </div>
+                <div class="box">
+                    <img src="./images/figma.png" alt="Figma">
+                    <br>
+                    Figma
+                </div>
+                <div class="box">
+                    <img src="./images/git.png" alt="Git">
+                    <br>
+                    Git
                 </div>
             </div>
+            </p>
+        </section>
+
+        <hr>
+
+        <section class="fourthSection" id="projects">
+            <h1>Projects</h1>
+            <p>
             <div class="skill">
-                <img src="./images/html.png" alt="HTML">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/css.png" alt="CSS">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/js.png" alt="JavaScript">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/bootstrap.png" alt="Bootstrap">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/figma.png" alt="Figma">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/dart.png" alt="Dart">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/flutter.png" alt="Flutter">
-                <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="./images/git.png" alt="Git">
+                <h3>Work in Progress</h3>
                 <div class="progress-bar">
                     <div class="progress" style="width: 80%;"></div>
                 </div>
@@ -129,24 +129,31 @@
 
         <hr>
 
-        <!-- <section>
-            <div class="box">
-                <div class="vertical">
-                </div>
-                <div class="vertical">
-                </div>
-                <div class="vertical">
-                </div>
-                <div class="vertical">
-                </div>
-            </div>
-        </section> -->
+        <section class="fifthSection" id="resume">
+            <h1>Resume</h1>
+            <p>
+                <input type="button" value="Download Resume" onclick="window.location.href='./Resume-Sumeed-Kanwar.pdf'"
+                    class="button" />
+            </p>
+        </section>
 
+        <hr>
+
+        <section class="sixthSection" id="contact">
+            <h1>Contact</h1>
+            <p>
+                <a href="https://github.com/sumeedkanwar" target="_blank"><img src="./images/github.png"
+                        alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/sumeedj/" target="_blank"><img src="./images/linkedin.png"
+                        alt="LinkedIn"></a>
+                <a href="mailto: sumeedkanwar@gmail.com" target="_blank"><img src="./images/email.png" alt="Email"></a>
+            </p>
+        </section>
+
+            <footer>
+                <p>Sumeed Jawad Kanwar &copy; 2023</p>
+            </footer>
     </main>
-
-    <!-- <footer>
-        <p>Sumeed Jawad Kanwar &copy; 2023</p>
-    </footer> -->
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
