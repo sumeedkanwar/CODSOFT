@@ -18,16 +18,16 @@
         </label>
         <label class="logo"><i class="fas fa-plane"></i> Landing</label>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <header>
         <img src="banner.png" alt="banner" class="banner">
-        <section class="sec1">
+        <section class="sec1" id="home">
             <h1>My Landing Page</h1>
             <p>
                 <i>Are you in need of a skilled and reliable app developer to bring your project to life?</i>
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="services">
         <div class="section">
             <h1>Services</h1>
             <div class="serve">
@@ -76,7 +76,7 @@
         </div>
     </section>
     
-    <section>
+    <section id="about">
         <div class="section">
                 <h1>About</h1>
                 <p>I am passionate about creating innovative solutions to complicated challenges. I am capable of designing and implementing efficient and scalable software systems due to my expertise in numerous programming languages and technologies. To achieve the best possible outcomes, I am continually learning and staying up to date with the newest industry trends.</p>
@@ -84,13 +84,17 @@
     </section>
 
     <section>
-        <div class="section">
+        <div class="section" id="contact">
         <h1>Contact</h1>
         <form action="index.php" method="post">
             <input type="text" name="name" placeholder="Name" class="inp">
+            <br>
             <input type="email" name="email" placeholder="Email" class="inp">
+            <br>
             <input type="text" name="subject" placeholder="Subject" class="inp">
+            <br>
             <textarea name="message" placeholder="Message" class="inp"></textarea>
+            <br>
             <input type="submit" name="submit" value="Send" class="butn">
         </form>
     </div></section>
