@@ -182,13 +182,13 @@ main hr{
 }
 .fourthSection .box{
     text-align: center;
-    margin: 20px 10px;
-    width: 30%;
-    border-radius: 25px;
-    background-color: #24292f;
+    margin: 10px 20px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #525252;
     color: white;
     font-size: 1.2rem;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 footer{
