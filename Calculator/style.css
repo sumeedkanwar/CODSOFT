@@ -14,7 +14,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(133, 133, 133)e5e;
+    background-color: rgb(180, 160, 160)e5e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 .calculator {
     width: 300px;
     height: auto;
-    background-color: darkslategrey;
+    background-color: #333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -59,14 +59,18 @@ form .display input:focus {
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
-    background-color: rgb(219, 219, 219);
+    background-color: gray;
     transition: background-color 0.3s ease;
 }
+
 .container form input:hover {
-    background-color: #333;
+    background-color: darkgray;
 }
 
 .equal-button {
     width: 40% !important;
-    /* Increase the width to make it double in size */
+}
+
+.operator {
+    color: #ff9500;
 }

@@ -16,33 +16,33 @@
                     <input type="text" name="display" id="display">
                 </div>
                 <div>
-                    <input type="button" name="clear" value="AC" onclick="clearDisplay()">
-                    <input type="button" name="backspace" value="DE" onclick="deleteLast()">
-                    <input type="button" name="percent" value="." onclick="appendToDisplay('.')">
-                    <input type="button" name="divide" value="/" onclick="appendToDisplay('/')">
+                    <input type="button" name="clear" value="AC" onclick="clearDisplay()" class="operator">
+                    <input type="button" name="backspace" value="DE" onclick="deleteLast()" class="operator">
+                    <input type="button" name="percent" value="." onclick="appendToDisplay('.')" class="operator">
+                    <input type="button" name="divide" value="/" onclick="appendToDisplay('/')" class="operator">
                 </div>
                 <div>
                     <input type="button" name="seven" value="7" onclick="appendToDisplay('7')">
                     <input type="button" name="eight" value="8" onclick="appendToDisplay('8')">
                     <input type="button" name="nine" value="9" onclick="appendToDisplay('9')">
-                    <input type="button" name="multiply" value="x" onclick="appendToDisplay('*')">
+                    <input type="button" name="multiply" value="x" onclick="appendToDisplay('*')"class="operator">
                 </div>
                 <div>
                     <input type="button" name="four" value="4" onclick="appendToDisplay('4')">
                     <input type="button" name="five" value="5" onclick="appendToDisplay('5')">
                     <input type="button" name="six" value="6" onclick="appendToDisplay('6')">
-                    <input type="button" name="subtract" value="-" onclick="appendToDisplay('-')">
+                    <input type="button" name="subtract" value="-" onclick="appendToDisplay('-')" class="operator">
                 </div>
                 <div>
                     <input type="button" name="one" value="1" onclick="appendToDisplay('1')">
                     <input type="button" name="two" value="2" onclick="appendToDisplay('2')">
                     <input type="button" name="three" value="3" onclick="appendToDisplay('3')">
-                    <input type="button" name="add" value="+" onclick="appendToDisplay('+')">
+                    <input type="button" name="add" value="+" onclick="appendToDisplay('+')" class="operator">
                 </div>
                 <div>
                     <input type="button" name="doubleZero" value="00" onclick="appendToDisplay('00')">
                     <input type="button" name="zero" value="0" onclick="appendToDisplay('0')">
-                    <input type="button" class="equal-button" name="equal" value="=" onclick="calculate()">
+                    <input type="button" class="equal-button operator" name="equal" value="=" onclick="calculate()">
                 </div>
             </form>
         </div>
